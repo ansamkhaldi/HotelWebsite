@@ -1,0 +1,23 @@
+.Test_div{
+font-size: 18px;
+color: #000;
+width: 100%;
+height: auto;
+text-align: center;
+color: #14274A;
+margin-bottom:60px;
+}
+.Test_div h1{
+    font-family: adobe-garamond-pro, serif; 
+}
+.Test_div div{
+  margin-bottom: 10px;   
+}
+.Back{
+    margin:10px 6px;  
+    color: #fff;
+    border-radius: 2px;
+    background-color: #E0B973;
+    text-align: center;
+    font-size: 30px;
+}

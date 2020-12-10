@@ -1,0 +1,83 @@
+@import url("https://use.typekit.net/mzi4jdq.css");
+nav{
+    display: inline-block;
+    background-color:rgba(0, 0, 0, 0.0);
+    height: 90px;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.flex-container{
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+}
+.flex-left{
+    display: flex;
+    flex: 30%;
+ 
+    text-align: center;
+    justify-content: center;
+
+}
+.flex-right{
+    display: flex;
+    flex: 70%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.flex-left div{
+ width:40%;
+ height: 100%;
+ background-color: #E0B973;
+ border-radius: 0 0 32px 32px;
+ display: flex;
+ flex-wrap: wrap;
+ font-size: 30px;
+ text-align: center;
+}
+.LUX{
+    display: flex;
+    flex: 100%;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: -10px;
+    margin-top: 17px;
+    font-family: adobe-garamond-pro, serif; 
+    font-size: 29px;
+    line-height: 48px;
+} 
+.HOTEL{
+    line-height: 0px;
+    display: flex;
+    flex: 100%;
+    text-align: center;
+    justify-content: center;
+    font-size: 10px;
+    margin-bottom:32px;
+    padding-top: -9px;
+    letter-spacing: 4px;
+    font-family: adobe-garamond-pro, serif; 
+}
+ul {
+    list-style-type: none;
+    margin-left: 160px;
+}
+.nav-text {
+    float: left;
+}  
+.nav-link {
+    display: block;
+    padding: 35px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400px;
+    color: white;
+}
+.nav-link:hover{
+    text-decoration: underline;
+    color: white;
+}

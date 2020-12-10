@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://use.typekit.net/mzi4jdq.css");
+/* HeaderContact_Component */
+.headerContact {
+    position: relative;
+    align-self: start
+  }
+.header_Blue{
+    width: 100%;
+    height: 330px;  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position:relative;
+    overflow:hidden; 
+    z-index:-1;
+    background-color: #14274A;
+}
+.Text_Header{
+position: absolute;
+left: 477px;
+top: 106px;
+color: rgb(255, 255, 255);
+font-family: 'Montserrat', sans-serif;
+font-size: 29.6px;
+line-height: 68px;
+}
+
+/* HeaderContact_Component */
+.Text-contact{
+position: absolute;
+width: 1085px;
+height: 107px;
+left: 143px;
+top: 440.46px;
+color: #14274A;
+}
+.Text-contact h1{    
+font-family: adobe-garamond-pro, serif;
+font-weight: bold;
+font-style: normal;
+font-size: 42px;
+}
+.Text-contact p{
+font-family: 'Montserrat', sans-serif;
+font-size: 21.3px;
+font-weight: 200;
+font-style: normal;
+line-height: 26px;
+}
+#form_Info{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top:730px;
+    left:10%;
+    right:10%;
+    width:80%;
+}
+/* InfoContact */
+.info-contact{
+flex: 50%;
+/* width: 403px; */
+height: 249px;
+left: 143px;
+top: 742px;
+color: #14274A;
+font-family: 'Montserrat', sans-serif;
+font-size: 26px;
+}
+#p_info{
+    width: 403px;
+}
+.info-contact p{
+    margin: 0px;
+    font-family: 'Montserrat';
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 35px;
+}
+#iconArrow{
+    display: flex;
+    text-align: start;
+    font-weight: bold;
+    margin-top: 15px ;
+}
+.flex-item-left {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.flex-item-right {
+    flex: 3;
+    justify-content: start;
+    align-items: flex-start;
+    margin-top: -6px;
+}
+
+.form-comp{
+    display: flex;
+    flex: 50%;
+    width: 50%;
+    left: 341px;
+    top: 742px;
+    width: 250px;
+    height: 484.4px;
+}
+form{
+width: 404px;
+height: 484.4px;
+margin-left: 24%;
+font-size: 17px;
+color: #14274A;
+font-family: 'Montserrat', sans-serif;
+}
+input[type=text] , textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border:  2px solid rgba(20, 39, 74, 0.5);
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  textarea{
+      height: 229px;
+  }
+  
+  input[type=submit] {
+      height: 50px;
+    width: 102px;
+    background-color: #E0B973;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 17px;
+    border: none;
+    float: right;
+  } 
+  input[type=submit]:hover {
+    background-color: #14274A;
+  }
+
+ 
+  

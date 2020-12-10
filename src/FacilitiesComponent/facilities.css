@@ -1,0 +1,61 @@
+.Parag_Facilit{
+    color: #14274A;
+    font-family: 'Montserrat', sans-serif;
+    padding: 70px 160px;
+    text-align: center;
+}
+#div1-Fac{
+    font-family: adobe-garamond-pro, serif; 
+    font-size: 48px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+#div2-Fac{
+    padding-top: 20px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.facilities-container{
+    margin: 0px 110px;
+    position: relative;
+    width: calc(100% - 220px);
+    height: auto;
+}
+.errorDiv{
+    color:red;
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+    margin: 200px 0px;
+}
+.loadingDiv{
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+    margin: 200px 0px;
+}
+figure{
+    height: 690px;
+}
+figure img{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+figcaption {
+    width:1050px;
+    background-color: white;
+    margin-top: -44px;
+    text-align: center;
+    position: absolute;
+    font-family:'Montserrat', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+color: #14274A;
+display: flex;
+justify-content: center;
+}
