@@ -46,7 +46,8 @@ figure img{
     width: 100%;
 }
 figcaption {
-    width:1050px;
+    margin-left: 70px;
+    width:900px;
     background-color: white;
     margin-top: -44px;
     text-align: center;

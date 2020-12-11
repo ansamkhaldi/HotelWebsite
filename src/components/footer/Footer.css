@@ -6,8 +6,9 @@ background-color: #14274A;
 color: white;
 text-align: center;
 position: absolute;
-top: 5600px;
-bottom: 0;
+/* top: 5600px; */
+left: 0;
+bottom: -300px;
 }
 .triangle-up {
 	width: 0;

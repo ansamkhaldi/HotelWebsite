@@ -33,7 +33,7 @@ export default function AxiosImag() {
     dispatch({ type: 'loading' });
     axios
       .get(
-        'https://api.unsplash.com/photos?page=5&per_page=6&query=hotel&client_id=blx3tWvA-FllWL1OAWE46bJyd4uEpzrSOpJHDccuo4I'
+        'https://api.unsplash.com/photos?page=10&per_page=6&query=hotel&client_id=blx3tWvA-FllWL1OAWE46bJyd4uEpzrSOpJHDccuo4I'
       )
       .then((res) => {
         dispatch({ type: 'success', payload: res.data });
@@ -53,7 +53,7 @@ export default function AxiosImag() {
       {!!error && <div className="errorDiv">somthing went wrong</div>}
       {!loading &&
         !error &&
-        state.Image.map((item, index) => (
+        Image.map((item, index) => (
           <figure>
             <img
               src={item.urls.regular}
